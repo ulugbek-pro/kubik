@@ -1,0 +1,48 @@
+.box {
+    width: 300px;
+    height: 300px;
+
+    background-color: yellow;
+
+    animation: yurish 8s infinite;
+}
+
+
+
+@keyframes yurish {
+    0% {
+        margin-left: 0;
+        margin-top: 0;
+        background-color: red;
+    }
+
+    25% {
+        margin-left: 80%;
+        margin-top: 0;
+        background-color: orange;
+    }
+
+    50% {
+        margin-left: 80%;
+        margin-top: 30%;
+        background-color: yellow;
+    }
+
+    75% {
+        margin-left: 0%;
+        margin-top: 30%;
+        background-color: green;
+    }
+    80%{
+        background-color: royalblue;
+    }
+    90%{
+        background-color: blue;
+    }
+
+    100% {
+        margin-left: 0;
+        margin-top: 0;
+        background-color: purple;
+    }
+}
